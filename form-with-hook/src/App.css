@@ -1,38 +1,113 @@
+
+body{
+  background-color:  #53b0e0;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  align-self:center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-right: 5px;
+  font-size: 30px;
+}
 .App {
   text-align: center;
+  display: flex;
+  height: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10px;
+  padding: 15px;
+  width: 400px;
+  height: 600px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid rgb(196, 213, 221);
+  border-radius: 10px;
+  color:white ;
+  font-weight: 900;
+  margin: 10px;
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  color: #a6bfe8;
+  padding: 5px;
+}
+
+.module-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid rgb(196, 213, 221);
+  border-radius: 10px;
+  color:white ;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.btn-submit {
+margin: 40px;
+width: 200px;
+padding: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+font-weight: 900;
+border: none;
+border-radius: 10px;
+background-color: #6b85ad;
+color: white;
+}
+
+.students-info {
+  display: flex;
+  flex-wrap: wrap;
+  color:#6b85ad;
+  gap: 20px;
+  border: 2px solid rgb(196, 213, 221);
+  background-color: rgb(170, 215, 236);
+  border-radius: 10px;
+  width: 70%;
+  padding: 3px;
+}
+
+li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 12px;
 }
